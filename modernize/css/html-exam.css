@@ -1,0 +1,173 @@
+/*fonts*/
+h1, h2, h3, h4, p {
+	margin: 0px;
+	font-family: 'Arial';
+	color: white;
+	display: inline-block;
+}
+
+ul {
+	margin:0px 0px 0px 12px;
+	padding: 8px 0 8px 0px;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline-block;
+	border-right: solid black 1px;
+	font-size: 13px;
+	padding: 6px 0 6px 0;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+	margin: 0px 14px 0px 14px;
+
+}
+
+p {
+	font-size: 13px;
+}
+
+p.footer a {
+	color: gray;
+	font-size: 11px;
+	margin-left: 900px;
+	text-decoration: none;
+}
+
+h1.info-header {
+	font-size: 20px;
+	margin: 30px 0 10px 15px;
+}
+
+h2 {
+	color: orange;
+	font-size: 17px;
+}
+
+h3 {
+	font-size: 16px;
+	color: orange;
+	margin: 20px 0 20px 8px;
+}
+
+h3.h3-head {
+	color:white;
+}
+
+p.italic-org {
+	color: orange;
+	font-style: italic;
+	margin-left: 750px;
+}
+
+.phone-num-text {
+	margin: 30px 0px 0px 515px;
+	vertical-align: top;
+}
+
+p.info-p {
+	margin: 0px 0px 30px 15px;
+	width: 550px;
+}
+
+p.port-p {
+	margin: 0 6px 12px 8px;
+}
+
+.feat-text {
+	margin: 25px 0 0 0;
+	vertical-align: top;
+
+}
+
+
+
+/*ID and class boxes*/
+#container, #header, #nav-bar, 
+#features, #info, #portfolio {
+	width: 976px;
+}
+
+#container {
+	margin: 0 auto;
+	background-color: black;
+	padding: 0 8px 8px 8px;
+}
+
+#header, #portfolio, #features {
+	background-color: #1a1a1a;
+}
+
+#nav-bar {
+
+	background: -webkit-linear-gradient(#515151, #444444, #515151); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#515151, #444444, #515151); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#515151, #444444, #515151); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#515151, #444444, #515151); /* Standard syntax */
+}
+
+#features {
+	padding-bottom: 40px;
+}
+
+#info {
+	background-color: black;
+}
+
+#info-text {
+	width: 700px;
+	display: inline-block;
+}
+
+.inner-portfolio {
+	display: inline-block;
+	width: 230px;
+	margin: 0px 3px 5px 3px;
+}
+
+.inner-features {
+	display: inline-block;
+}
+
+.inner-text {
+	width: 165px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+/*Images*/
+.img {
+	display: inline-block;
+}
+.feat-img {
+	display: inline-block;
+	vertical-align: top;
+	margin: 25px 8px 0px 12px;
+}
+
+.img-logo {
+	margin: 20px;
+
+}
+
+.port-img {
+	margin-left: 8px;
+	border: solid 4px #353535;
+}
+
+.img-splash {
+	border-bottom: solid gray 4px;
+}
+
+.btn {
+	color:white;
+	background-color: orange;
+	border-radius: 6px;
+	padding: 8px 22px 8px 22px;
+	vertical-align: top;
+	margin: 40px 0 0 120px;
+	border: none;
+}
